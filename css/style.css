@@ -2,9 +2,14 @@
   scroll-behavior: smooth;
 }
 
+#Intro {
+	height: 90%;
+}
+
 .intro_background {
 	background-color: rgba(123,114,115,0.60);
-	margin: 10%;
+	margin-top: 25%;
+	margin-left: auto;
 }
 
 .intro_headline {
@@ -37,7 +42,7 @@
 	
   /* Set a specific height */
   width: 100%;
-  height: 100%;
+  height: 95%;
   position: absolute;
   left: 0;
 
