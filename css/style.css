@@ -17,11 +17,18 @@ html {
 	text-align: center;
 }
 
+.scroll_button_container {
+	width: 96%; 
+	position: absolute; 
+	bottom: 0;
+}
+
 .scroll_button {
 	background-color: rgba(123,114,115,0.60); 
 	height: 25px; 
 	width: 25px; 
-	margin: 0 auto;
+	position: relative; 
+	margin: auto;
 }
 
 .parallax {
