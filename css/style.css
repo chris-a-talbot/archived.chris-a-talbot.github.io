@@ -8,6 +8,11 @@
 	text-align: center;
 }
 
+.intro_text {
+	color: white;
+	text-align: center;
+}
+
 .parallax {
   /* The image used */
   background-image: url("../images/bg2.jpg");
