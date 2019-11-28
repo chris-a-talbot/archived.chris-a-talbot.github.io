@@ -1,8 +1,11 @@
-#intro_headline {
-	background-color: gray;
+.intro_background {
+	background-color: rgba(123,114,115,0.60);
+	margin: 10%;
+}
+
+.intro_headline {
 	color: white;
 	text-align: center;
-	margin-top: -25%;
 }
 
 .parallax {
