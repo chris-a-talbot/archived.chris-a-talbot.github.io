@@ -2,6 +2,10 @@
 	scroll-behavior: smooth;
 }
 
+.home_body {
+	overflow: hidden;
+}
+
 #Intro {
 	height: 90%;
 }
