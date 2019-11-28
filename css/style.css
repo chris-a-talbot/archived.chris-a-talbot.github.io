@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .intro_background {
 	background-color: rgba(123,114,115,0.60);
 	margin: 10%;
@@ -11,6 +15,13 @@
 .intro_text {
 	color: white;
 	text-align: center;
+}
+
+.scroll_button {
+	background-color: rgba(123,114,115,0.60); 
+	height: 25px; 
+	width: 25px; 
+	margin: 0 auto;
 }
 
 .parallax {
