@@ -3,7 +3,11 @@
 }
 
 .home_body {
-	overflow: hidden;
+  -ms-overflow-style: none;
+}
+
+.home_body::-webkit-scrollbar {
+  display: none;
 }
 
 #Intro {
