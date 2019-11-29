@@ -30,6 +30,12 @@
 	text-align: center;
 }
 
+.more_about {
+	width: 96%;
+	position: relative;
+	margin-top: 20%;
+}
+
 .scroll_button_container {
 	width: 96%; 
 	position: absolute; 
