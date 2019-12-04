@@ -11,7 +11,7 @@
 }
 
 .parallax {
-  background-image: url("../images/bg2.jpg");
+  background-image: url("../images/bg/vine.jpg");
   width: 100%;
   height: 100%;
   position: absolute;
@@ -69,7 +69,7 @@
 }
 
 .arrow {
-	margin: auto 38%;
+	margin: 28% 38% 10% 38%;
     border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
@@ -83,7 +83,7 @@
 	margin: 10% 50% 0 50%;
 	height: 20%;
     width: 5%;
-    background-color: white;
+    background-color: #D8D8EB;
     border-radius: 50%;
 	animation-name: scroll_button;
 	animation-duration: 1s;
@@ -93,15 +93,16 @@
 
 @keyframes scroll_button {
 	50% {
-		background-color: gray;
+		background-color: lightgray;
+		box-shadow: 0 0 10px 5px gray;
 	}
 }
 
 .about {
 	height: 100%; 
 	width: 100%; 
-	margin-top: 4%; 
-	background-image: url("../images/congruent_outline.png");
+	margin: 50% 50% 50% 10%; 
+	background-image: url("../images/bg/congruent_outline.png");
 	position: absolute;
 	left: 0;
 }
