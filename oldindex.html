@@ -1,8 +1,8 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html class="home">
 	<head>
 		<meta charset="utf-8">
-		<title>Chris Talbot</title>		
+		<title>Experiments</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -11,7 +11,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</head>
 
-	<body class="FlexBody">
+	<body class="FlexBody home_body">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top "> <a class="navbar-brand" href="#"><img src="images/logo.png" width="225" alt=""></a>
 			<ul class="navbar-nav mr-auto">
 			  <li class="nav-item active"> <a class="nav-link" href="#">Home</a> </li>
@@ -24,24 +24,50 @@
 			  </li>
 			</ul>
 		</nav>
+		
 		<main>
 			<div class="container-fluid parallax">
 				<div class="row" id="Intro">
-					<div class="col-md-3"></div>
-					<div class="col-md-6">
-						<div style="position: relative; margin-top: 10%; height: 85%;">
-							<div style="position: relative; margin: 0 auto; height: 25%; background-color: rgba(255,255,255,0.31);">
-								<img src="images/me.jpg" style="float: right; margin: 2%; height: 115%; opacity: 0.95;">
-							</div>
-							<div style="position: relative; margin: 0 auto; height: 25%;"></div>
-							<div style="position: relative; margin: 0 auto; height: 25%;"></div>
-							<div style="position: relative; margin: 0 auto; height: 25%; background-color: rgba(255, 255, 255, 0.31);">
-								<img src="images/me.jpg" style="float: left; margin-left: 2%; margin-top: -4%; height: 115%; opacity: 0.95;">
+					<div class="col-0 col-md-3"></div>
+					<div class="col-12 col-md-6" style="position: relative; float: left;">
+						<div class="intro_background">
+							<img src="images/me.jpg" style="width: 25%; height: 25%; float: right; margin: 2%;" alt="Me">
+								<h1 class="intro_headline">Hey. I'm Chris.</h1>
+								<p class="intro_text">I'm just vibin</p>	
+							<div>
+								<img src="images/me.jpg" style="width: 25%; height: 25%; float: left; margin: 2%;" alt="Me">								
+								<div style="bottom: 0;">
+									<h1>Hi</h1>
+									<p>Sup</p>
+								</div>
 							</div>
 						</div>
+						<div class="scroll_button_container">
+							<a href="#Two"><div class="scroll_button"><p style="text-align: center;">.</p></div></a>
+						</div>
 					</div>
-					<div class="col-md-3"></div>
+					<div class="col-0 col-md-3"></div>
 				</div>
+			</div>
+			<div class="container-fluid about" style="margin-top: 53%;" id="Two">
+				<div class="row" style="height: 100%;">
+					<div class="col-12 col-md-4">
+						<div class="info_box">
+							<h2>Sustainability</h2>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="info_box">
+							<h2>User Experience Design</h2>
+						</div>					
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="info_box">
+							<h2>Data Science&nbsp;</h2>
+						</div>					
+					</div>
+				</div>
+			</div>
 			</div>
 		</main>
 	</body>
