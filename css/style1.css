@@ -45,7 +45,9 @@
 	margin: -75vh 1.25vw;
     width: 46vw;
     height: 150vh;
-    background: url(https://img.freepik.com/free-photo/dark-grunge-texture_1048-4055.jpg?size=626&ext=jpg);
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.99), rgba(0,0,0,0.9), rgba(0,0,0,0.75), rgba(0,0,0,0.5));
+	background-position: center;
+	background-size: contain;
 
 /*     The points are: centered top, left bottom, right bottom */
     clip-path: polygon(0% 50%, 50% 100%, 100% 50%);
@@ -56,7 +58,8 @@
 	margin: 56vh 11vw;
     width: 12vw;
     height: 19.5vh;
-    background: url("../images/space.jpg");
+    background: url("../images/pinkpoly.png");
+	background-size: cover;
 
 /*     The points are: centered top, left bottom, right bottom */
     clip-path: polygon(50% 0, 0 100%, 100% 100%);
@@ -67,7 +70,8 @@
 	margin: 56vh 25.5vw;
     width: 12vw;
     height: 19.5vh;
-    background: url("../images/space.jpg");
+    background: url("../images/aquapoly.png");
+	background-size: cover;
 
 /*     The points are: centered top, left bottom, right bottom */
     clip-path: polygon(50% 0, 0 100%, 100% 100%);
