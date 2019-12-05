@@ -10,8 +10,12 @@
   display: none;
 }
 
+hr.line {
+	border: 0.5px solid #3F3F3F;
+}
+
 .parallax {
-  background-image: url("../images/bg/vine.jpg");
+  background-image: url("../images/sky.jpg");
   width: 101%;
   height: 100%;
   left: 0;
@@ -36,7 +40,7 @@
 .home_content {
 	position: absolute; 
 	z-index: 5; 
-	margin: 1vh 12.5vw; 
+	margin: 7vh 12.5vw; 
 	width: 23vw;
 }
 
@@ -45,7 +49,7 @@
 	margin: -75vh 1.25vw;
     width: 46vw;
     height: 150vh;
-    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.99), rgba(0,0,0,0.9), rgba(0,0,0,0.75), rgba(0,0,0,0.5));
+    background: linear-gradient(360deg, rgba(204, 220, 210, 1), rgba(204, 220, 210, 1), rgba(204, 220, 210, 0.98), rgba(204, 220, 210, 0.94) 1%, rgba(232, 198, 88, 0.91), rgba(216, 137, 98, 0.87), rgba(222, 132, 124, 0.83), rgba(160, 99, 117, 0.78), rgba(159, 117, 139, 0.72) 60%);
 	background-position: center;
 	background-size: contain;
 
@@ -58,7 +62,7 @@
 	margin: 56vh 11vw;
     width: 12vw;
     height: 19.5vh;
-    background: url("../images/pinkpoly.png");
+    background: linear-gradient(360deg, rgba(204, 220, 210, 0.94) 1%, rgba(232, 198, 88, 0.9));
 	background-size: cover;
 
 /*     The points are: centered top, left bottom, right bottom */
@@ -70,7 +74,7 @@
 	margin: 56vh 25.5vw;
     width: 12vw;
     height: 19.5vh;
-    background: url("../images/aquapoly.png");
+    background: linear-gradient(360deg, rgba(204, 220, 210, 0.94) 1%, rgba(232, 198, 88, 0.9));
 	background-size: cover;
 
 /*     The points are: centered top, left bottom, right bottom */
@@ -83,7 +87,7 @@
 	height: 0;
 	border-left: 3.68vw solid transparent;
 	border-right: 3.68vw solid transparent;
-	border-top: 12vh solid rgba(100,100,100,0.95);
+	border-top: 12vh solid rgba(216, 137, 98, 0.9);
 	margin: 60vh 20.57vw;
 	animation-name: triangle_scroll;
 	animation-duration: 9s;
@@ -97,25 +101,25 @@
 		margin: 60vh 20.11vw;
 		border-left: 4.14vw solid transparent;
 		border-right: 4.14vw solid transparent;
-		border-top: 13.5vh solid rgba(0,0,0,0.95);
+		border-top: 13.5vh solid rgba(126,81,104,0.8);
 	}
 	10% {
 		margin: 60vh 20.57vw;
 		border-left: 3.68vw solid transparent;
 		border-right: 3.68vw solid transparent;
-		border-top: 12vh solid rgba(100,100,100,0.95);		
+		border-top: 12vh solid rgba(216, 137, 98, 0.9);
 	}
 	15% {
 		margin: 60vh 20.11vw;
 		border-left: 4.14vw solid transparent;
 		border-right: 4.14vw solid transparent;
-		border-top: 13.5vh solid rgba(0,0,0,0.95);
+		border-top: 13.5vh solid rgba(128,81,103,0.8);
 	}
 	20% {
 		margin: 60vh 20.57vw;
 		border-left: 3.68vw solid transparent;
 		border-right: 3.68vw solid transparent;
-		border-top: 12vh solid rgba(100,100,100,0.95);				
+		border-top: 12vh solid rgba(216, 137, 98, 0.9);
 	}
 }
 
