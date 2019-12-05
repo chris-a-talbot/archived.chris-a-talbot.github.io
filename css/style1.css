@@ -12,7 +12,7 @@
 
 .parallax {
   background-image: url("../images/bg/vine.jpg");
-  width: 100%;
+  width: 101%;
   height: 100%;
   left: 0;
   position: absolute;
@@ -22,50 +22,22 @@
   background-size: cover;
 }
 
-#Intro {
+.full_height {
 	height: 100%;
 }
 
 .home_main {
 	position: relative; 
-	margin-top: 10%; 
-	height: 85%;
+	top: 15%; 
+	height: 85%; 
+	width: 48.5vw;
 }
 
-.home_main_box {
-	position: relative; 
-	margin: 0 auto; 
-	height: 25%; 
-	background-color: rgba(4,140,87,0.1);
-}
-
-.home_image_container_top {
-	position: relative; 
-	float: right; 
-	margin: 2%; 
-	height: 120%; 
-	width: 25%;
-}
-
-.home_image_container_bottom {
-	position: relative; 
-	float: left; 
-	margin: -4% auto auto 2%; 
-	height: 120%; 
-	width: 25%;
-}
-
-.home_image {
+.home_content {
 	position: absolute; 
-	margin: auto; 
-	max-width: 100%; 
-	max-height: 100%;
-}
-
-.home_empty {
-	position: relative; 
-	margin: 0 auto; 
-	height: 25%;
+	z-index: 5; 
+	margin: 1vh 12.5vw; 
+	width: 23vw;
 }
 
 .arrow {
@@ -99,39 +71,59 @@
 	}
 }
 
-.accent_text {
+.triangle_main {
 	position: absolute;
-	color: rgba(22,22,22,1.00);
-	font-weight: bolder;
-	font-size: 500%;
-}
-
-.about {
-	height: 100%; 
-	width: 100%; 
-	margin: 50% 50% 50% 10%; 
-	background-image: url("../images/bg/congruent_outline.png");
-	position: absolute;
-	left: 0;
-}
-
-.info_box {
-	background-color: rgba(123,114,115,0.60);
-	margin-top: 15%;
-	margin-left: auto;
-}
-.info_box h2 {
-	color: white;
-	text-align: center;
-}
-
-.triangle {
-	position: relative;
 	width: 0;
 	height: 0;
 	border-left: 23vw solid transparent;
 	border-right: 23vw solid transparent;
-	border-top: 75vh solid #555;
-	margin: auto;
+	border-top: 75vh solid rgba(100,100,100,0.95);
+	margin: auto 1.25vw;
+}
+
+.triangle_side_left {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 6vw solid transparent;
+	border-right: 6vw solid transparent;
+	border-bottom: 19.56vh solid #555;
+	left: 11vw;
+	bottom: 10vh;
+}
+
+.triangle_side_right {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 6vw solid transparent;
+	border-right: 6vw solid transparent;
+	border-bottom: 19.56vh solid #555;
+	right: 11vw;
+	bottom: 10vh;
+}
+
+.triangle_scroll {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 3.68vw solid transparent;
+	border-right: 3.68vw solid transparent;
+	border-top: 12vh solid rgba(100,100,100,0.95);
+	margin: 60vh 20.57vw;
+	animation-name: triangle_scroll;
+	animation-duration: 1s;
+	animation-delay: 2s;
+	animation-iteration-count: 2;
+	animation-fill-mode: linear;
+}
+
+@keyframes triangle_scroll {
+	50% {
+		margin: 60vh 20.11vw;
+		border-left: 4.14vw solid transparent;
+		border-right: 4.14vw solid transparent;
+		border-top: 13.5vh solid rgba(0,0,0,0.95);
+	}
 }
 
