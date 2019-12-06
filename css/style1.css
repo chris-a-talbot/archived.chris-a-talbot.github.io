@@ -123,4 +123,49 @@ hr.line {
 	}
 }
 
+.horizontal_scroll_container {
+	overflow-y:scroll;
+	overflow-x:hidden;
+	transform: rotate(270deg) translateX(-100%);
+	transform-origin: top left;
+	background:#999;
+	position:absolute;
+	width:100vh;
+	height:100vw;
+}
 
+.horizontal_scroll {
+	transform: rotate(90deg) translateY(-100vh);
+	transform-origin: top left;
+	white-space:nowrap;
+	font-size:0;
+}
+
+.horizontal_scroll_container .box {
+	width:100vw;
+	height:100vh;
+	display:inline-block;
+	position:relative;
+	background: url(https://www.designbolts.com/wp-content/uploads/2012/11/Free-Topographic-Map-Seamless-pattern.jpg);
+}
+
+.horizontal_scroll_container .box > .test {
+	width:20vw;
+  	height:20vh;
+	font-size:10vh;
+	color:#FFF;
+	position:absolute;
+	top: 20vh;
+	left: 5vw;
+	margin:-50px 0 0 -50px;
+	line-height:.7;
+	z-index: 100;
+}
+
+.horizontal_scroll_container .box > .side {
+	width:20vw;
+  	height:110vh;
+	font-size:10vh;
+	background: gray;
+	position: absolute;
+}
