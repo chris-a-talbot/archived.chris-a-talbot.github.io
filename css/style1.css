@@ -196,3 +196,14 @@ hr.line {
 	font-size: 1vw;
 	background: rgba(255,255,255,0.25);
 }
+
+.side_scroll_1 {
+	height: 7vh;
+	width: 6vw;
+	position: absolute;
+	background: rgba(0,0,0,1);
+	margin: 50vh 90vw;
+	color: white;
+	font-size: 1.5vw;
+	text-align: center;
+}
