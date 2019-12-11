@@ -146,7 +146,7 @@ hr.line {
 	height:100vh;
 	display:inline-block;
 	position:relative;
-	background: url(https://www.designbolts.com/wp-content/uploads/2012/11/Free-Topographic-Map-Seamless-pattern.jpg);
+	background: url("../images/topo.png");
 }
 
 .horizontal_scroll_container .box > .test {
